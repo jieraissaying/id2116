@@ -22,6 +22,6 @@
 .hover-border-theme:hover {border-color:#000000 !important}
 
 .display-container {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left:400px;
+    margin-right: 400px;
 }
