@@ -1,0 +1,37 @@
+img:hover {
+  animation: shake 0.6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(-1deg); }
+  10% { transform: translate(-1px, -2px) rotate(-5deg); }
+  20% { transform: translate(-3px, 0px) rotate(3deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(5deg); }
+ }
+}
+
+  h1 {
+      font-family: 'karla';
+      color:grey;
+      text-align: center;
+      font-size: 70px;
+    }
+  
+    h2 {
+      font-family: 'karla';
+      color: grey;
+      text-align: center;
+      font-size: 10px;
+    }
+
+h4 {
+  text-align: center;
+  font-family: 'serif';;
+  font-size: 10px;
+  color: #b19e9e;
+}
+
+
+
