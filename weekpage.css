@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -59,3 +58,9 @@ body {
     font-weight: 'karla';font-size: medium;
     text-align:center;
   } 
+
+  p.ex1 
+{
+    margin: 10px 180px
+  
+  }
