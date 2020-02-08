@@ -9,7 +9,7 @@ img:hover {
   20% { transform: translate(-3px, 0px) rotate(3deg); }
   30% { transform: translate(3px, 2px) rotate(0deg); }
   40% { transform: translate(1px, -1px) rotate(3deg); }
- }
+ 
 }
 
   h1 {
