@@ -55,12 +55,17 @@ body {
 .h1 
 {
     color: rgb(131, 131, 138);
-    font-weight: 'karla';font-size: medium;
+    font-family: "lato" ;font-size: medium;
     text-align:center;
-  } 
+} 
 
-  p.ex1 
+
+
+.ex1 
 {
-    margin: 10px 180px
+    margin: 10px 380px ;
+    color: rgb(131, 131, 138);
+    font-weight: 'lato' ; font-size: 12pt; 
+    text-align: center;
   
   }
