@@ -100,8 +100,9 @@ img {
         text-align: center;
         font-family: 'raleway'; 
         font-weight: 'semibold';
-    
-        p {
+      }
+
+      p {
             text-align: center;
             font-family: 'lato'
             font-size: 16px;
