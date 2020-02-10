@@ -80,3 +80,38 @@ body {
     
    margin-left: 300px;
 } 
+
+#wrapper { 
+  width: 920px; 
+  height: auto; 
+  margin: 0 auto;
+} 
+#home1 { 
+  width: 47.5%; 
+  height: 300px; 
+  float: left; 
+  margin-right: 5%;
+} 
+
+#home2 { 
+  width: 47.5%; 
+  height: 300px; 
+  float: left; 
+}
+
+.clear{
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
