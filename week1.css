@@ -59,11 +59,24 @@ body {
     text-align:center;
 } 
 
-
-
+.h2 
+{
+    color: rgb(131, 131, 138);
+    font-family: "lato" ;font-size: 15px;
+    text-align:center;
+} 
 .ex1 
 
 {
-    margin: 10px 180px
-  
-  }
+    margin: 10px 380px ;
+    color: rgb(131, 131, 138);
+    font-weight: 'lato' ; font-size: 12pt; 
+    text-align: center;
+}
+
+
+
+.video {
+    
+   margin-left: 300px;
+} 
