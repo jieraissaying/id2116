@@ -65,6 +65,20 @@
   background-color: #666;
   color: white;
 }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 </style>
 <!-- Header -->
 <div class="header" id="myHeader">
@@ -118,35 +132,34 @@
       <source src="IMG_1792.MOV" type="video/MP4">
     
       <video class='column'></video>
-    Sorry, your browser does not support the &lt;video&gt; tag used in this demo.
+    
     </div>
     </video>
 
     <div style="text-align:center;">
     <video controls width="360">
-      <source src="IMG_1793.MOV" type="video/MOV">
-      <source src="IMG_1793.MOV" type="video/MP4">
+   <source src="IMG_1793.MOV" type="video/MOV">
+      <source src="IMG_1793.MOV" type="video/MP4">   
     
-    
-    Sorry, your browser does not support the &lt;video&gt; tag used in this demo.
+
     </div>
     </video>
+
     </video>
     <h2 style="text-align: center; "> Project</h2>
-    <p class="ex1"> We begin our project by looking into different objects in our daily life that can potential trigger anther experience with the actions being exerted on the object. 
+    <p class="ex1"> We begin our project by looking into different objects in our daily life to trigger a different experience with the actions being carry out on the object. 
       we then realise that the actions we carry out on drinks/ bottles are quite interesting
    </p>
+  
+   <div style="text-align: center;">
+      <img src="bottle.jpg" alt="bottle" style="width:20%" >
+    </div>
+    
+   
 
-   <div class="row">
-    <div class="column">
-      <img src="img_snow.jpg" alt="Snow" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="img_forest.jpg" alt="Forest" style="width:100%">
-    </div>
-    <div class="column">
-      <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
-    </div>
+
+
+    
     
 </body>
 
