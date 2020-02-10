@@ -105,7 +105,7 @@ body {
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 25%;
   padding: 5px;
 }
 
@@ -114,4 +114,11 @@ body {
   content: "";
   clear: both;
   display: table;
+}
+
+.ex2{
+  
+  text-align: center;
+  color: rgb(131, 131, 138);
+  font-weight: 'lato' ; font-size: 13pt; 
 }
