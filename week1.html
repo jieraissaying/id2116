@@ -65,16 +65,30 @@
   background-color: #666;
   color: white;
 }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 </style>
 <!-- Header -->
 <div class="header" id="myHeader">
   <h1>p r o j e c t</h1>
   <p>w e e k l y         p r o g r e s s</p>
    
-
+  <a href="https://jieraissaying.github.io/id2116/"><button class="btn">Main</button></a>
   <button class="btn">1</button></a>
-  <a href="https://jieying199.github.io/id2116/"><button class="btn">2</button></a>
-  <a href="https://jieying199.github.io/id2116/"><button class="btn">3</button></a>
+  <a href="https://jieraissaying.github.io/id2116/week2"><button class="btn">2</button></a>
+  <a href="https://jieraissaying.github.io/id2116/week3"><button class="btn">3</button></a>
   <a href="https://jieying199.github.io/id2116/"><button class="btn">4</button></a>
   <button class="btn" onclick="four()">5</button>
   <button class="btn" onclick="four()">6</button>
@@ -93,25 +107,93 @@
 <body>
 <h1 style="text-align: center;" > w e e k    01 </h1>
 
-<p class="ex1">This week we learn the basic steps of how a use a micro bit. Micro bit is a pocket-sized computer that allows various creative interactions with its motion detecting functions, button functions and many more. We tried using the flipping motion to be the trigger for icon change. As well as the use of button to record numbers with addition formula.
-  Here are some micro bit files that we got after.
+<h2 style="text-align: center;">C l a s s   E x e r c i s e</h2>
 
-</p>
+  <style>
+    p.ex1 {
+      margin-left: 350px;
+      text-align: center;
+    }
+    </style>
+    </head>
+    <body>
+    <p class="ex1">This week we learn the basic steps of how a use a micro bit. Micro bit is a pocket-sized computer that allows various creative interactions with its motion detecting functions, button functions and many more. We tried using the flipping motion to be the trigger for icon change, from heart shape to a spaceship as seen in the first video. As well as moving text in the second video.
+      <br/>
+      <br/>
+      Here are some micro bit tryouts from the lesson:</p>
+    
+  
+    </p>
 
-<br>
+    <div id="row"> 
+      <div style="text-align: center;"
+      <div id="column"
+       <video  width="280" height="300"  controls="controls" preload="none"> 
+            <source type="video/mp4" src="shake.mov" /> 
+        </video>
+  
+        <video controls autoplay  width="230" height="300"  controls="controls" preload="none"> 
+          <source type="video/mp4" src="IMG_1792.MOV" /> 
+        </video>
+  
+        <video controls autoplay width="230" height="300"  controls="controls" preload="none"> 
+          <source type="video/mp4" src="IMG_1793.MOV" /> 
+      </video>
+  
+        </div> 
+  
+    </div>
 
 
-<div style="text-align:center;">
-<video width="50%" controls="">
-  <source src="IMG_1793.MOV" type="video/MOV">
-</video>
+</br>  
+   </br>
+   </br>
+    <h2 style="text-align: center; "> P r o j e c t</h2>
+    <p class="ex1"> We begin our project by looking into different objects in our daily life to trigger a different experience with the actions being carry out on the object. 
+      we then realise that the actions we carry out on drinks/ bottles are quite interesting. We often buy a drink just by looking at the packaging of the drink. What if the actions we carry out on the drinks can be translated into visual graphics
+   </p>
+  
+   <div style="text-align: center;">
+      <img src="bottle.jpg" alt="bottle" style="width:15%" >
+    </div>
+  
 
 
-<div style="text-align:center;">
-  <video width="50%" controls="">
-    <source src="IMG_1792.MOV" type="video/MOV">
-  </video>
+    <br/>
+    <p class="ex1"> The actions are can be carried out on a bottle are: Lifting, Twisting and Shaking</p>
+    
+    <div id="row"> 
+    <div style="text-align: center;"
+    <div id="column"
+      <video width="300" height="300"  controls="controls" preload="none"> 
+          <source type="video/mp4" src="lift.mov" /> 
+      </video>
 
+      <video controls autoplay width="300" height="300"  controls="controls" preload="none"> 
+          <source type="video/mp4" src="shake.mov" /> 
+      </video>
+
+      <video controls autoplay width="300" height="300"  controls="controls" preload="none"> 
+        <source type="video/mp4" src="twist.mov" /> 
+      </video>
+
+      <video controls autoplay width="300" height="300"  controls="controls" preload="none"> 
+        <source type="video/mp4" src="lift.mov" /> 
+    </video>
+
+      </div> 
+
+  </div>
+  <br/>
+  <p class="ex2">  Next Week: How can we combine microbit with the actions? </p>
+
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+    
+    
 </body>
 
 

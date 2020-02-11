@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="utf-8">
+  <title>p r o j e c t</title>
+<link rel="stylesheet" href="week1.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+.header {
+      background-color: rgb(219, 199, 195);
+      color: lavender;
+      text-align: center;
+      padding: 32px 0;
+    } 
+
+
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 14 px;
+  font-weight:"karla" ;
+  color: rgb(156, 141, 151);
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1>p r o j e c t</h1>
+  <p>w e e k l y         p r o g r e s s</p>
+   
+  <a href="https://jieraissaying.github.io/id2116/"><button class="btn">Main</button></a>
+  <a href="https://jieraissaying.github.io/id2116/week1"><button class="btn">1</button></a>
+  <a  class="btn">2</button></a>
+  <a href="https://jieraissaying.github.io/id2116/week3"><button class="btn">3</button></a>
+  <a href="https://jieraissaying.github.io/id2116/week4"><button class="btn">4</button></a>
+  <button class="btn" onclick="four()">5</button>
+  <button class="btn" onclick="four()">6</button>
+  <button class="btn" onclick="four()">7</button>
+  <button class="btn" onclick="four()">8</button>
+  <button class="btn" onclick="four()">9</button>
+  <button class="btn" onclick="four()">10</button>
+  <button class="btn" onclick="four()">11</button>
+  <button class="btn" onclick="four()">12</button>
+  <button class="btn" onclick="four()">13</button>
+</div>
+</script>
+
+</head>
+
+
+<body>
+    <h1 style="text-align: center;" > w e e k    02 </h1>
+    
+    <h2 style="text-align: center;">P r o j e c t</h2>
+    
+    <p class="ex1"> Can the action of lifting the bottle trigger something ? 
+      </p>
+    <br/>
+
+    <div style="text-align: center;">
+      <img src="flavour.jpg" alt="bottle" style="width:15%" >
+    </div>
+    <br/>
+    <p class="ex1"> Project Concept : 
+      <br/>
+      We often purchase bottled drinks based on the flavours and the packaging of the drink, how can we further enhance this experience with motion graphics? Can we use the action of lifting a bottle to trigger a series of videos related to the flavour of the drinks to enhance the drinking experience?
+    </p>
+    <br/>
+    <p class="ex1"> Experiment 1 :  
+      <br/>
+      First, we look into how light sensors can detect changes in the amount of light. We experimented on micro bit itself.  In this case, the light ambience in the environment are translated into visual graphics on the micro bit. The stronger the light, the higher the graphics in the display chart. 
+The following video shows our exploration 
+    </p>
+<br/>
+    <div id="row"> 
+      <div style="text-align: center;"
+      <div id="column"
+        <video width="300" height="300"  controls="controls" preload="none"> 
+            <source type="video/mp4" src="lift.mov" /> 
+        </video>
+  
+        <video controls autoplay width="300" height="300"  controls="controls" preload="none"> 
+            <source type="video/mp4" src="lightgraph.mov" /> 
+        </video>
+  
+        <video controls autoplay width="300" height="300"  controls="controls" preload="none"> 
+          <source type="video/mp4" src="lightbottle.mov" /> 
+        </video>
+
+    </div>
+    <br/>
+
+    <p class="ex1"> Experiment 2 :
+  <br/> 
+      We then look into light sensor as number values. The amount of light is translated Into numerical values on the micro bit. 
+    </p>
+
+
+    <div id="row"> 
+      <div style="text-align: center;"
+      <div id="column"
+        <video width="300" height="300"  controls="controls" preload="none"> 
+            <source type="video/mp4" src="lift.mov" /> 
+        </video>
+  
+        <video controls autoplay width="300" height="300"  controls="controls" preload="none"> 
+            <source type="video/mp4" src="lightvalue.mov" /> 
+        </video>
+     </div>
+<br/>
+
+<p class="ex1"> Experiment 2 :
+  <br/>
+  However, the above experiments only show us the amount of light the device receives, it does not trigger the motion graphics that we want to play. 
+<br/>
+<br/>
+In order for us to set a trigger point we need to know the value of light when the bottle is over the detector and also the value of light when the bottle is lifted away from the detector. 
+<br/>
+<br/>
+<p class="ex2"> We will explore more about it next week. 
+</p>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+</body>

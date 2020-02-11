@@ -59,8 +59,12 @@ body {
     text-align:center;
 } 
 
-
-
+.h2 
+{
+    color: rgb(131, 131, 138);
+    font-family: "lato" ;font-size: 15px;
+    text-align:center;
+} 
 .ex1 
 
 {
@@ -68,4 +72,53 @@ body {
     color: rgb(131, 131, 138);
     font-weight: 'lato' ; font-size: 12pt; 
     text-align: center;
+}
+
+
+
+.video {
+    
+   margin-left: 300px;
+} 
+
+#wrapper { 
+  width: 920px; 
+  height: auto; 
+  margin: 0 auto;
+} 
+#home1 { 
+  width: 47.5%; 
+  height: 300px; 
+  float: left; 
+  margin-right: 5%;
+} 
+
+#home2 { 
+  width: 47.5%; 
+  height: 300px; 
+  float: left; 
+}
+
+.clear{
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.ex2{
+  
+  text-align: center;
+  color: rgb(131, 131, 138);
+  font-weight: 'lato' ; font-size: 13pt; 
 }
