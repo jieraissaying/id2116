@@ -1,19 +1,17 @@
 .header {
     background-color: rgb(219, 199, 195);
     color: white;
-    padding: 10px;
+    padding: 0px;
   }
   
-    #myheader {
-      color: rgb(131, 131, 138);
-      font-weight: 'san serif';font-size: medium;
-    }
+
   
     ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
-      overflow: hidden;
+      border-top: left;
+      margin-top : 13px;
       background-color: #fcf7f7;
     }
     
@@ -32,3 +30,82 @@
     li a:hover {
       background-color: #fcf7f7;
     }
+
+    p {
+      color: rgb(40,52,94);
+      font-family: "karla";
+      text-align: center;
+      margin-left: 650px;
+      margin-right: 200px;
+      font-size: 12px; 
+      word-spacing: 0.3cm;
+      margin-top : 20px; 
+    } 
+
+    
+
+    h1 {
+      color: rgb(190, 185, 187);
+      font-family: "karla" ; font-weight: bold ; 
+      font-size: 20px;
+      letter-spacing: 10px;
+      margin-left: 680px;
+      margin-top : 0px; 
+      text-align: center 
+    }
+
+
+
+
+    h2 {
+      color: rgb(231, 158, 170);
+      font-family: "lato" ; font-weight: bold ; 
+      font-size: 14px;
+      letter-spacing: 10px;
+      margin-left: 680px;
+    }
+
+    h3 {
+      color: rgb(187, 168, 171);
+      font-family: "nunito" ; font-weight: medium ;
+      font-size: 12px;
+      letter-spacing: 0px;
+      margin-left: 700px;
+      margin-right: 200px;
+      text-align: center
+    }
+
+    header {
+      color: rgb(253, 197, 206);
+      font-family: "karla" ; font-weight: bold ; 
+      font-size: 37px;
+      letter-spacing: 40px;
+      margin-left: 850px;
+      margin-top:80px;
+    }
+
+    h4{
+      color: rgb(180, 169, 171);
+      font-family: "nunito" ; 
+      font-size: 12px;
+      letter-spacing: 20px;
+      margin-left: 750px;
+    }
+
+
+    img:hover {
+      animation: shake 0.6s;
+      animation-iteration-count: infinite;
+    }
+    
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(-1deg); }
+    10% { transform: translate(-1px, -2px) rotate(-5deg); }
+    20% { transform: translate(-3px, 0px) rotate(3deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(5deg); }
+  }
+
+
+
+  
