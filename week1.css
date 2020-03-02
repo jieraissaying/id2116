@@ -122,3 +122,10 @@ body {
   color: rgb(131, 131, 138);
   font-weight: 'lato' ; font-size: 13pt; 
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
