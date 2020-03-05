@@ -1,151 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>jieraissaying</title>
-<link rel="stylesheet" type="text/css" href="home.css">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
-
-
-<style>
-.sidenav {
-  width: 130px;
-  position: absolute;
-  z-index: 1;
-  top: 280px;
-  left: 150px;
-  overflow-x: hidden;
-  padding: 8px 0;
-}
-
-.sidenav a {
-  padding: 6px 8px 20px 30px;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 'lato';
-  color: gray;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: palevioletred;
-    font-weight: 'karla';font-size: 17pt;
-}
-
-.main {
-  margin-left:1000px; /* Same width as the sidebar + left position in px */
-  font-size: 14px; 
-  padding: 0px 10px;
-}
-
-@media screen and (max-height: 200px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-</style>
-</head>
-<body>
-
-
-<div class="sidenav", color: white >
-
-  <a href="#about">about</a>
-  <a href="https://jieraissaying.github.io/id2116/week1">weekly</a>
-  <a href="#clients">final</a>
-</div>
+  <link rel="stylesheet" type="text/css" href="home.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
 
 
 
-<h1 style="text-align:center;"> 
-</pre>
-</div> 
-<h3 style="text-align:center;">
+  
+  <style>
+  .sidenav {
+    width: 130px;
+    position: absolute;
+    z-index: 1;
+    top: 280px;
+    left: 150px;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+
+  .sidenav a { 
+    padding: 6px 8px 20px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 'lato';
+    color: gray;
+    display: block;
+  }
+ .sidenav a:hover {
+    color: palevioletred;
+      font-weight: 'karla';font-size: 17pt;
+  }
+
+  .main {
+    margin-left:1000px; /* Same width as the sidebar + left position in px */
+    font-size: 14px; 
+    padding: 0px 10px;
+  }
+
+  @media screen and (max-height: 200px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  </style>
+
+<h1 style="text-align:center;" > 
+  <div class="floating">
   <pre>
-h e l l o.</pre>  </h3>   
-<h5 style="text-align:center"> <pre>we are sarah and jieying. click on us! </pre>
+h e l l o.</pre>  </h1>   
+<h2 style="text-align:center"> <pre> we are sarah and jieying. click on us! </pre>
 </h5>
+</h1>
 </div>
 </head>
 
+
 <body>
 
+  
+<div class= "sidenav"> 
+    <div class="floating">
+    <a href="#about">about</a>
+    <a href="url">link text</a>
+    <a href="#clients">final</a>
+  </div>
+</div>
+</div>
+
+
+
+
+ 
+
+   
+  
   <style>
     .header {
       background-color: rgb(219, 199, 195);
       color: lavender;
       padding: 80px 0;
     } 
-    </style>
+    body {
+      background-image: url("https://i.imgur.com/97yAIx0.png");
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .left {
+    animation: float1 4s ease-in-out infinite;
+  }
+
+  .right {
+    right: 0;
+    animation: float2 5s ease-in-out infinite;
+  }
+
   
-  
-    <style>
-      body {
-        background-image: url("https://i.imgur.com/97yAIx0.png");
-        background-size: cover;
-        background-attachment: fixed;
-      }
 
+  .centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -65%);
+    text-align: center;
+  }
 
-<style>
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.left {
-  left: 0;
-
-}
-
-.right {
-  right: 0;
-  
-}
-
-
-.centered1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-76%, -45%);
-  text-align: center;
-}
-
-
-.centered2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-15%, -44%);
-  text-align: center;
-}
-
+  .centered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-75%, -44%);
+    text-align: center;
+  }
 </style>
-</head>
-<body>
+
+<script>
+  function hover(element) {
+    element.setAttribute('src', 'https://i.imgur.com/8t0sHOU.png');
+  }
+  
+  function unhover(element) {
+    element.setAttribute('src', 'https://i.imgur.com/UwyBF8F.png');
+  }
+
+  function hoverb(element) {
+    element.setAttribute('src', 'https://i.imgur.com/qXmG2Mm.png');
+  }
+  
+  function unhoverb(element) {
+    element.setAttribute('src', 'https://i.imgur.com/VG9IDrB.png');
+  }
+
+
+</script>
+
+
+
 
 <div class="split left">
   <div class="centered1">
     <a href="https://jieraissaying.github.io/id2116/sarah.html">
-      <img src="https://i.imgur.com/ZNZWa5A.png" alt="Sarah" style="width:30%">
+      <img src="https://i.imgur.com/UwyBF8F.png" onmouseover="hover(this);"  style="width:70%"  onmouseout="unhover(this);" style="width:70%"  />
+    </a>
   </div>
 </div>
 
 <div class="split right">
   <div class="centered2">
     <a href="https://jieying199.github.io/id2116/">
-      <img src="https://i.imgur.com/UyJ98wW.png" alt="Jieying" style="width:23%">
+      <img src="https://i.imgur.com/VG9IDrB.png" onmouseover="hoverb(this);"  style="width:120%"  onmouseout="unhoverb(this);" style="width:120%"  />
+    </a>
   </div>
 </div>
 
-
 </body>
-
-</html> 
+</html>
 
