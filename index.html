@@ -8,9 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
 
-
-
   
+
   <style>
   .sidenav {
     width: 130px;
@@ -61,22 +60,6 @@ h e l l o.</pre>  </h1>
 <body>
 
   
-<div class= "sidenav"> 
-    <div class="floating">
-    <a href="#about">about</a>
-    <a href="url">link text</a>
-    <a href="#clients">final</a>
-  </div>
-</div>
-</div>
-
-
-
-
- 
-
-   
-  
   <style>
     .header {
       background-color: rgb(219, 199, 195);
@@ -91,7 +74,7 @@ h e l l o.</pre>  </h1>
 
   .split {
     height: 100%;
-    width: 50%;
+    width: 33%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -101,30 +84,31 @@ h e l l o.</pre>  </h1>
 
   .left {
     animation: float1 4s ease-in-out infinite;
-  }
-
-  .right {
-    right: 0;
-    animation: float2 5s ease-in-out infinite;
-  }
-
-  
-
-  .centered1 {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 0%;
+    transform: translate(40%, -65%);
+    text-align: center;
+  }
+
+  .middle {
+    animation: float2 5s ease-in-out infinite;
+    position: absolute;
+    top: 30%;
+    left: 26%;
     transform: translate(-20%, -65%);
     text-align: center;
   }
 
-  .centered2 {
+  .right {
+    animation: float2 5s ease-in-out infinite;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20%;
+    left: 56%;
     transform: translate(-75%, -44%);
     text-align: center;
   }
+
 </style>
 
 <script>
@@ -149,21 +133,22 @@ h e l l o.</pre>  </h1>
 
 
 
+<div class="split left sidenav floating">
+  <a href="#about">about</a>
+  <a href="#url">weekly</a>
+  <a href="#clients">final</a>
+</div>
 
-<div class="split left">
-  <div class="centered1">
-    <a href="https://jieraissaying.github.io/id2116/sarah.html">
-      <img src="https://i.imgur.com/UwyBF8F.png" onmouseover="hover(this);"  style="width:70%"  onmouseout="unhover(this);" style="width:70%"  />
-    </a>
-  </div>
+<div class="split middle">
+  <a href="https://jieraissaying.github.io/id2116/sarah.html">
+    <img src="https://i.imgur.com/UwyBF8F.png" onmouseover="hover(this);"  style="width:50%"  onmouseout="unhover(this);" style="width:50%"  />
+  </a>
 </div>
 
 <div class="split right">
-  <div class="centered2">
-    <a href="https://jieying199.github.io/id2116/">
-      <img src="https://i.imgur.com/VG9IDrB.png" onmouseover="hoverb(this);"  style="width:120%"  onmouseout="unhoverb(this);" style="width:120%"  />
-    </a>
-  </div>
+  <a href="https://jieying199.github.io/id2116/">
+    <img src="https://i.imgur.com/VG9IDrB.png" onmouseover="hoverb(this);"  style="width:100%"  onmouseout="unhoverb(this);" style="width:100%"  />
+  </a>
 </div>
 
 </body>
